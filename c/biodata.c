@@ -1,0 +1,39 @@
+# include<stdio.h>
+int main()
+{
+	char Name[16];
+	char Fathername[15];
+	char Mothername[15];
+	int Age;
+	char Gender[6];
+	float DOB;
+	char Department[50];
+	char Hobby[50];
+	int Phno;
+	char College[100];
+	char Email[55];
+	printf("Name: ");
+	scanf("%[^\n]",& Name);
+	printf("Fathername: ");
+	scanf("\n%s",& Fathername);
+	printf("Mothername: ");
+	scanf("\n%s",& Mothername);
+	printf("Age: ");
+	scanf("\n%d",& Age);
+	printf("Gender: ");
+	scanf("\n%s",& Gender);
+	printf("Department: ");
+	scanf("\n%[^\n]",& Department);
+	printf("Hobby: ");
+	scanf("\n%s",& Hobby);
+	printf("Phno: ");
+	scanf("\n%d",& Phno);
+	printf("College: ");
+	scanf("\n%s",& College);
+	printf("Email: ");
+	scanf("\n%s",& Email);
+	printf("DOB: ");
+	scanf("\n%f",& DOB);
+	return 0;
+	}
+
